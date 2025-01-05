@@ -13,7 +13,7 @@ class ApiClient {
     this.defaultHeaders = const {},
   });
 
-  Future<Map<String, dynamic>> get(
+  Future<dynamic> get(
     String endpoint, {
     Map<String, String>? headers,
     Map<String, String>? queryParameters,
